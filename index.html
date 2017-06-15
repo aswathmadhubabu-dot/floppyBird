@@ -1,40 +1,38 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+<html>
 
-    <title>FLOPPY BIRD</title>
+<head>
+    <meta charset="utf-8" />
+    <title>FlattyBird</title>
+    <link href="https://bootswatch.com/darkly/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+</head>
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://bootswatch.com/paper/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/css/mdb.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-  </head>
-<style>
-  
-</style>
-  <body>
-        <div class="container">
-          <div id="container">
-              <div id="bird"></div>
-              <div id="pole1"></div>
-              <div id="pole2"></div>
-          </div>
-        </div><!-- /.container -->
-        <div id="score_div">
-          <p><b>Score :</b><span id="score">0</span></p>
-          <p><b>Speed :</b><span id="speed">10</span></p>
-        </div>
+<body>
+<!--	 Testing the git command line tool-->
+    <div id="container">
 
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="js/scripts.js"></script>
-   
-  </body>
+        <div id="bird"></div>
+
+        <div id="pole_1" class="pole"></div>
+        <div id="pole_2" class="pole"></div>
+
+    </div>
+
+    <div id="score_div">
+        <p><b>Score: </b><span id="score">0</span></p>
+        <p><b>Speed: </b><span id="speed">10</span></p>
+    </div>
+    <br />
+    <center>
+      <h4> By Aswath.M </h4>
+    </center>
+
+    <button id="restart_btn">Restart</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
 </html>
- 
