@@ -8,9 +8,13 @@ body{
     position: relative;
     height: 400px;
     width: 90%;
-    border: 2px solid red;
+    border: 3px solid darkgray;
     background-color: aliceblue;
     margin-left: 4%;
+    background:#FFF;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 5px 10px #777;
+    box-shadow: 0 5px 10px #777;
     overflow: hidden; 
 }
 #bird
